@@ -1,5 +1,5 @@
 header {
-    height: 50px;
+    height: 70px;
     background-color: rgb(0, 0, 0);
     position: sticky;
     top: 0;
@@ -19,7 +19,7 @@ body{
 #herovdo {
     width: 50%;
     position: fixed;
-    top: calc(50px + 50vh);
+    top: calc(70px + 50vh);
     transform: translateY(-60%);
     right: 5vw;
 }
@@ -68,6 +68,6 @@ h2{
     background-color: #0FBF3E;
 }
 
-h1::selection {
+.highlight1 {
     background-color: #8534F3;
 }
