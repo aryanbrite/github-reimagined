@@ -6,6 +6,8 @@ header {
     padding-left: 40px;
     display: flex;
     align-items: center;
+    gap: 20px;
+    color: white;
 }
 
 body{
@@ -20,4 +22,17 @@ body{
 
 #githubicon {
     width: 35px;
+}
+
+#githubicon:hover {
+    filter: drop-shadow(3px 3px 0px white);
+}
+
+@font-face {
+    font-family: face;
+    src: url(assets/safiro-medium-webfont.ttf);
+}
+
+h2 {
+    font-family: face;
 }
