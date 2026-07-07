@@ -7,9 +7,13 @@ header {
     display: flex;
     align-items: center;
     text-align: center;
-    gap: 10px;
-    color: rgb(0, 0, 0);
+    gap: 4vw;
+    color: rgb(255, 255, 255);
     z-index: 10000;
+    font-family: face;
+}
+header p {
+    font-size: 1em;
 }
 
 body{
