@@ -6,7 +6,7 @@ header {
     padding-left: 40px;
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     color: white;
 }
 
@@ -22,10 +22,7 @@ body{
 
 #githubicon {
     width: 35px;
-}
-
-#githubicon:hover {
-    filter: drop-shadow(3px 3px 0px white);
+    filter: drop-shadow(2px 0px 0px white);
 }
 
 @font-face {
@@ -35,4 +32,12 @@ body{
 
 h2 {
     font-family: face;
+}
+
+.logo {
+    display: flex;
+    gap: 7px;
+    text-align: center;
+    align-items: center;
+    user-select: none;
 }
