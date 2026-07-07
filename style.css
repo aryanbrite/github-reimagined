@@ -1,0 +1,23 @@
+header {
+    height: 50px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+body{
+    margin: 0;
+}
+
+#herovdo {
+    width: 100%;
+    position: fixed;
+    top: 50px;
+}
+
+#githubicon {
+    width: 35px;
+}
