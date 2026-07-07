@@ -11,6 +11,7 @@ header {
     color: rgb(255, 255, 255);
     z-index: 10000;
     font-family: face;
+    user-select: none;
 }
 header p {
     font-size: 1em;
@@ -27,6 +28,7 @@ body{
     top: calc(70px + 50%);
     transform: translateY(-60%);
     right: 2%;
+    user-select: none;
 }
 
 #githubicon {
