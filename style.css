@@ -18,7 +18,7 @@ body{
 
 #herovdo {
     width: 50%;
-    position: fixed;
+    position: absolute;
     top: calc(70px + 50%);
     transform: translateY(-60%);
     right: 2%;
@@ -57,7 +57,7 @@ h2 {
     font-family: face;
     font-weight: 1;
     font-size: 9vw;
-    position: fixed;
+    position: absolute;
     left: 2vw;
     right: 50%;
 }
@@ -71,4 +71,21 @@ h2{
 
 .highlight1 {
     background-color: #8534F3;
+}
+
+.highlight2{
+    background-color: white;
+}
+
+h1::selection{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.hero {
+    position: relative;
+    height: 80vh;
+}
+#section2 {
+    position: relative;
 }
