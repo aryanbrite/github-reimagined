@@ -200,4 +200,13 @@ h2::selection{
     height: 15vh;
     width: 5.1vw;
     top: 19.5vh;
+    box-shadow: 10px 0 30px white;
+    border-radius: 12px;
+}
+#hide1 {
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    height: 20vh;
+    width: 5.1vw;
+    top: 17vh;
 }
