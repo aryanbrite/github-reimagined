@@ -130,7 +130,7 @@ h2::selection{
     border: 1px solid white;
     padding: 1.3vh;
     border-radius: 9px;
-    height: 4.8vh;
+    height: 5vh;
     font-family: face;
     font-size: 1em;
     align-items: center;
@@ -138,12 +138,12 @@ h2::selection{
 }
 #Login {
     position: absolute;
-    right: 16vh;
+    right: 18vh;
     background: none;
     color: rgb(255, 255, 255);
     border: none;
     padding: 1.3vh;
-    height: 4.8vh;
+    height: 5vh;
     font-family: face;
     font-size: 1em;
     align-items: center;
