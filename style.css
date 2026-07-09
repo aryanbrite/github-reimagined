@@ -165,6 +165,31 @@ h2::selection{
     display: flex;
     transition: 0.3s;
 }
-#infinite img {
+#companies{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    top: 23vh;
+}
+
+.track{
+    display: flex;
+    align-items: center;
+    gap: 1.7vw;
+    width: max-content;
+    animation: marquee 20s linear infinite;
+}
+
+.track img{
     height: 7vh;
+    flex-shrink: 0;
+}
+
+@keyframes marquee{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(calc(-50% - 0.85vw));
+    }
 }
