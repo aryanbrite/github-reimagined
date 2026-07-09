@@ -121,3 +121,13 @@ h2::selection{
         transform: rotateY(0deg);
     }
 }
+
+#Signup {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: 1px solid white;
+    padding: 1.3vh;
+    border-radius: 9px;
+    height: 4.8vh;
+    font-family: face;
+}
