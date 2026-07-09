@@ -101,14 +101,23 @@ h2::selection{
 #section2 h2 span {
     display: inline-block;
     transform-style: preserve-3d;
-    animation: anitext 2s linear infinite;
+    animation: anitext 2s ease-in-out infinite;
 }
+
+#section2 h2 span:nth-child(1) { animation-delay: 0s; }
+#section2 h2 span:nth-child(2) { animation-delay: 0.2s; }
+#section2 h2 span:nth-child(3) { animation-delay: 0.4s; }
+#section2 h2 span:nth-child(4) { animation-delay: 0.6s; }
+
 
 @keyframes anitext {
     0% {
         transform: rotateY(0deg);
     }
+    50% {
+        transform: rotateY(68deg);
+    }
     100% {
-        transform: rotateY(360deg);
+        transform: rotateY(0deg);
     }
 }
