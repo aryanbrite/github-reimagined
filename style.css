@@ -97,3 +97,18 @@ h2::selection{
 #section2 {
     position: relative;
 }
+
+#section2 h2 {
+    display: inline-block;
+    transform-style: preserve-3d;
+    animation: anitext 2s linear infinite;
+}
+
+@keyframes anitext {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
