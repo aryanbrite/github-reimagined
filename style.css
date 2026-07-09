@@ -98,7 +98,7 @@ h2::selection{
     position: relative;
 }
 
-#section2 h2 {
+#section2 h2 span {
     display: inline-block;
     transform-style: preserve-3d;
     animation: anitext 2s linear infinite;
