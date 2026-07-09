@@ -165,3 +165,6 @@ h2::selection{
     display: flex;
     transition: 0.3s;
 }
+#infinite img {
+    height: 7vh;
+}
