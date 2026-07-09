@@ -15,6 +15,7 @@ header {
 }
 header p {
     font-size: 1em;
+    transition: 0.17s;
 }
 
 body{
@@ -135,7 +136,21 @@ h2::selection{
     font-size: 1em;
     align-items: center;
     display: flex;
+    transition: 0.3s;
 }
+
+
+#Signup:hover, #Login:hover, header p:hover  {
+    transform: translateY(3px);
+    cursor:pointer;
+    scale: 1.05;
+}
+
+#Signup:active, #Login:active{
+    transform: translateY(0);
+    transition: 0.1s;
+}
+
 #Login {
     position: absolute;
     right: 18vh;
@@ -148,4 +163,5 @@ h2::selection{
     font-size: 1em;
     align-items: center;
     display: flex;
+    transition: 0.3s;
 }
